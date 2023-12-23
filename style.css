@@ -1,0 +1,117 @@
+.main{
+    background:linear-gradient(to bottom right,yellow,magenta,aqua,goldenrod);
+    color: black;
+}
+.logo{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-top: 5px;
+    border:1px solid black;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Happy Monkey';
+    color:goldenrod;
+    margin-top: 5px;
+}
+.b{
+    background-color: black;
+    padding:10px;
+    border-radius: 5px;
+
+}
+.nav-main{
+    background-color: black;
+    margin-top:5px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+a{
+    color:white !important;
+    margin-right:20px;
+    font-size: medium;
+    font-family: 'Happy Monkey';
+}
+.slide{
+    width:700px !important;
+    height:400px;
+}
+.btn{
+    border:2px solid white;
+    color:whitesmoke;
+}
+.btn:hover{
+    background-color: goldenrod;
+    border-color: black;
+}
+.card-img{
+    width:286px;
+    height:200px;
+    padding:10px;
+    padding-bottom:0;
+}
+.card-heading{
+    text-align: center;
+    margin-top:px;
+}
+.cards-container{
+    margin-top: 20px;
+}
+.acc-main{
+    margin-top:20px;
+}
+.maps{
+    border-radius: 5px;
+    border:15px solid black !important;
+}
+.form-main{
+    border:2px solid black;
+    padding:15px;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+.form-heading{
+    text-decoration: underline;
+}
+.foot{
+    text-align: center;
+    padding:5px;
+    background-color: black;
+}
+footer{
+    border:2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.hero-heading{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Happy Monkey';
+    color:goldenrod;
+
+}
+.footing{
+    color:white !important;
+    font-family:'Happy Monkey' ;
+    text-decoration: none;
+
+}
+em{
+    background-color: black;
+    color:goldenrod;
+    padding:10px;
+    border-radius: 5px;
+    font-family:'Happy Monkey' ;
+    margin-bottom:5px;
+}
+.btn-form{
+    border:2px solid black;
+    background-color: black;
+    color:goldenrod;
+}
+span{
+    text-decoration: underline;
+}

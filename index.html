@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Happy+Monkey&family=Orbitron&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid main">
+        <header>
+            <div class="container-fluid header">
+                <div class="row">
+                    <div class="col-1"><img src="logoo.png" class="logo"></div>
+                    <div class="col-11 heading"><b class="b">CLASH OF CLANS</b></div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg nav-main">
+            <div class="container-fluid">
+                <a class="navbar-brand text-1" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i>Search</i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <center>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="slide" src="slide-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="slide" src="slide-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="slide" src="slide-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </center>
+        <Center>
+            <h1 class="hero-heading heading"><em>HEROES</em></h1>
+            <div class="container-fluid cards-container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="king.webp" class="card-img-top card-img" alt="King">
+                            <div class="card-body">
+                                <h3 class="card-heading">Barbarian King</h3>
+                                <p class="card-text">The Barbarian King is the first Hero.He is a larger, stronger, more
+                                    aggressive, more impressive, and more powerful Barbarian.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Queen.avif" class="card-img-top card-img" alt="Queen">
+                            <div class="card-body">
+                                <h3 class="card-heading">Archer Queen</h3>
+                                <p class="card-text">Archer Queen is the 2nd hero the game has to offer and She is a
+                                    single targeting unit with 725 hit points at the base level.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="RoyalChampion.jpg" class="card-img-top card-img" alt="Royal Champion">
+                            <div class="card-body">
+                                <h3 class="card-heading">Royal Champion</h3>
+                                <p class="card-text">The Royal Champion is the fourth Hero in the Home Village. She has
+                                    moderately high DPS, moderate health, and targets defenses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Center>
+        <div class="row acc-main">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                About Clash of Clans
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Clash of Clans is an online multiplayer game in which each player is a village chief. Every player builds their village by using resources and trains troops to attack other player villages to gain resources and trophies.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Why is COC so famous?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Clash of Clans has a worldwide fan base due to the simple, yet highly entertaining gameplay features. Millions of players log-in each day to chat with other clan members, upgrade their base, practice new attack strategies, and participate in Clan Wars.
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                    
+            </div>
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the benefits of playing Clash of Clans?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Advantages: You learn how to set up strategy. You can learn how to analyze a situation and find the solution accordingly. You learn about timing, what comes first and what comes next.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How to play Clash of Clans for beginners?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Many players agree that having most of your base concentrated in the middle is a good strategy. Keep your key buildings in the most defensible position. Place your storages and town hall in the center of your base, behind the defenses and walls. Put builders huts in the corners.
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                    
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254500.69290335863!2d24.689046115707228!3d60.109754116628444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2sHelsinki%2C%20Finland!5e0!3m2!1sen!2sin!4v1703260004952!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col form-main">
+                    <form>
+                        <center><label><h1 class="form-heading"><em> REGISTRATION FORM</em></h1></label></center>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label"><i>Email address:</i></label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label"><i>Password:</i></label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1"><i>Check me out</i></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-form"><i>Submit</i></button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col foot">
+                        <a class="footing" href="https://www.google.com/search?q=clash+of+clans&sca_esv=593107018&rlz=1C1RXQR_enIN1058IN1058&ei=f62FZde1O9GbseMPyIur8Aw&gs_ssp=eJzj4tLP1TcoK8g2S6o0YPTiS85JLM5QyE9TADLyigF_cQks&oq=clash&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWNsYXNoKgIIADIQEC4YQxiDARixAxiABBiKBTILEAAYgAQYigUYkQIyEBAAGIAEGIoFGEMYsQMYgwEyChAAGIAEGIoFGEMyCxAAGIAEGLEDGIMBMhAQABiABBiKBRhDGLEDGIMBMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgsQLhiABBixAxiDATIKEAAYgAQYigUYQzIfEC4YQxiDARixAxiABBiKBRiXBRjcBBjeBBjgBNgBA0jnHlC6CVj_EnABeAGQAQCYAccBoAH_BaoBAzAuNbgBA8gBAPgBAagCEsICFBAAGIAEGOMEGOkEGOoCGLQC2AEBwgIUEC4YgAQY4wQY6QQY6gIYtALYAQHCAhYQABgDGI8BGOUCGOoCGLQCGIwD2AECwgIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAsICChAuGEMYgAQYigXCAhkQLhhDGIAEGIoFGJcFGNwEGN4EGOAE2AEDwgIOEC4YgAQYigUYsQMYgwHCAg4QABiABBiKBRixAxiDAcICCBAAGIAEGLEDwgIFEAAYgATiAwQYACBBiAYBugYECAEYB7oGBggCEAEYCroGBggDEAEYFA&sclient=gws-wiz-serp">To Learn more about this <span>click here</span></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
